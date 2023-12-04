@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.issuuLogo {
+  width: 150px;
+  margin: 2px;
+}
+
+.header {
+  background: rgb(125, 124, 124);
+  background: linear-gradient(
+    180deg,
+    rgba(125, 124, 124, 0) 95%,
+    rgba(125, 124, 124, 0) 97%,
+    rgba(117, 118, 119, 0.09895833333333337) 99%
+  );
+}
+.header > .signIn {
+  position: absolute;
+  left: 89%;
+  top: 1px;
+}
+.signIn > p {
+  margin: 0px;
+}
+li {
+  display: inline-block;
+}
+footer {
+  width: 928px;
+  margin-top: 100px;
+  display: inline-block;
+  background: rgb(125, 124, 124);
+  background: linear-gradient(
+    0deg,
+    rgba(125, 124, 124, 0) 95%,
+    rgba(125, 124, 124, 0) 97%,
+    rgba(117, 118, 119, 0.09895833333333337) 99%
+  );
+}
+.logoInsta {
+  position: inline;
+  background-color: rgb(104, 104, 234);
+  border-radius: 3px;
+  width: 140px;
+  height: 20px;
+  float: left;
+}
+.loginEmail {
+  transform: translate(20%, 50%);
+}
+
+.loginSocial {
+  padding: 20px;
+  transform: translate(20%, 50%);
+}
+
+.loginSocial li {
+  position: absolute;
+  margin: 10px;
+  list-style-type: none;
+  display: inline-block;
+}
+.loginGoogle {
+  display: inline-block;
+  padding: 1px;
+  background-color: rgb(104, 104, 234);
+  border-radius: 3px;
+  color: white;
+}
+.logoGoogle {
+  padding: 3px;
+  width: 15px;
+}
+.logoFace {
+  width: 20px;
+}
+
+ul {
+  margin: 10px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.pulsador {
+  margin-top: 16px;
+  display: inline-block;
+  padding: 10px 20px;
+  background: white;
+  color: rgb(181, 176, 176); /* Color del texto */
+  border: 2px dashed #b0b4b1; /* Borde con puntos y color */
+  border-radius: 20px; /* Bordes redondeados */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilos adicionales según sea necesario */
+.boton-continuar {
+  margin-right: 10px;
+  position: relative;
+  padding: 4px 30px;
+  background-color: #1c688d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton-continuar img {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 20px;
+}
+
+.terminos {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 150px;
+  text-align: center;
+}
+
+.terminos li {
+  margin-left: 10px;
+  display: inline-block;
+}
+.TerminosYcondiciones {
+  appearance: none;
+  position: relative;
+  border-radius: 30%;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #999;
+  transition: 0.2s all linear;
+  margin-top: 10px;
+}
